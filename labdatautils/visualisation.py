@@ -1,7 +1,8 @@
 import ipywidgets as widgets
 
+
 def results_widget_tabs(dfs_dict):
-    'Updates result tab widgets with new dataframes.'
+    """Updates result tab widgets with new dataframes."""
 
     html_widgets = []
     for table in dfs_dict:
